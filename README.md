@@ -34,6 +34,7 @@ deepoでdockerで入れると多くの環境を一括で構築できる。
 mnistが動くことを確認。    
 
 ```
+cd deepo_001
 python chainer_3.5.0.py -g 0
 python cntk_2.4.py
 python keras_2.1.5.py
@@ -96,18 +97,19 @@ gpuを使ってる場合はメモリが変化する。
 ```
 
 
-## english
+## English
 
 Operation check of deep learning research environment.    
 If you put it in docker with deepo, you can build many environments in bulk.   
 
 
-### command    
+### Command    
 
 Confirm that mnist works.    
 
 
 ```
+cd deepo_001
 python chainer_3.5.0.py -g 0
 python cntk_2.4.py
 python keras_2.1.5.py
